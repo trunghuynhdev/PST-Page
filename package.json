@@ -3,6 +3,24 @@
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.12.4",
-  "scripts": { "dev": "pnpm --parallel --filter @pst/landing --filter @pst/admin dev", "dev:landing": "pnpm --filter @pst/landing dev", "dev:admin": "pnpm --filter @pst/admin dev", "build": "pnpm -r build", "lint": "pnpm -r lint", "typecheck": "pnpm -r typecheck", "test": "pnpm -r test" },
-  "devDependencies": { "@eslint/js": "latest", "@types/node": "latest", "@vitest/coverage-v8": "latest", "eslint": "latest", "eslint-config-prettier": "latest", "prettier": "latest", "typescript": "5.9.3", "typescript-eslint": "latest", "vitest": "latest" }
+  "scripts": {
+    "dev": "pnpm --parallel --filter @pst/landing --filter @pst/admin dev",
+    "dev:landing": "pnpm --filter @pst/landing dev",
+    "dev:admin": "pnpm --filter @pst/admin dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@types/node": "latest",
+    "@vitest/coverage-v8": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "prettier": "latest",
+    "typescript": "5.9.3",
+    "typescript-eslint": "latest",
+    "vitest": "latest"
+  }
 }
