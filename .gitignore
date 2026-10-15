@@ -1,6 +1,36 @@
-node_modules
-dist
+# Environment variables
 .env
 .env.*
 !.env.example
-coverage
+!.env.*.example
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+coverage/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Local certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
