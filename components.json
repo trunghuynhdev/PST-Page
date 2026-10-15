@@ -1,0 +1,1 @@
+{"$schema":"https://ui.shadcn.com/schema.json","style":"nova","rsc":false,"tsx":true,"tailwind":{"css":"apps/landing/src/styles.css","baseColor":"neutral","cssVariables":true},"aliases":{"components":"@/components","utils":"@/shared/lib/utils","ui":"@/shared/ui","lib":"@/shared/lib","hooks":"@/shared/hooks"},"iconLibrary":"lucide"}

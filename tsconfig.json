@@ -1,0 +1,1 @@
+{"files":[],"references":[{"path":"./apps/landing/tsconfig.json"},{"path":"./apps/admin/tsconfig.json"}],"compilerOptions":{"strict":true,"noEmit":true,"skipLibCheck":true}}
